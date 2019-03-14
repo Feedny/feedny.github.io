@@ -1,0 +1,273 @@
+/*~~~~~ metropoleHD style ~~~~~*/
+
+/*~~ FONTS ~~*/
+@font-face {
+  font-family: "montserrat"; 
+  src: url('../fonts/montserrat/Montserrat-Light.otf');
+}
+@font-face {
+  font-family: "montserrat-bold"; 
+  src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "kayak-light"; 
+  src: url('../fonts/kayak/KayakSansLight.otf');
+}
+@font-face {
+  font-family: "kayak"; 
+  src: url('../fonts/kayak/KayakSansRegular.otf');
+}
+@font-face {
+  font-family: "kayak-bold"; 
+  src: url('../fonts/kayak/KayakSansBold.otf');
+}
+
+/*~~ GLOBAL ~~*/
+html{height: 100%;}
+body{height: 100%;font-family: 'kayak-bold';letter-spacing: 1px;text-align: center;}
+section{padding-top: 6em;padding-bottom: 4em;background-size: cover;width: 100%;/*height: 100%;*/}
+h1 {color: #e67f00;font-size: 38px;}
+h3 {color: #e67f00;font-size: 20px;text-transform: uppercase;padding-bottom: 20px;}
+h4 {font-size: 20px;padding:10px 40px;}
+h5 {font-size: 22px;color: #e67f00;text-transform: uppercase;padding-bottom: 20px}
+h6 {font-size: 25px;color: #fff;padding-bottom: 10px}
+h7 {font-size: 18px;color: #fff;padding-bottom: 10px}
+p {font-size: 22px;}
+hr {width: 180px;border-bottom: 1px solid #e67f00;border-top: 0px ;margin-bottom: 4em;opacity: 0.6}
+ul {padding-left: 0px;}
+ul li {list-style: none;}
+a:hover, a:focus{color: #e67f00}
+li a:hover{text-decoration: none;}
+a:hover{text-decoration: none;opacity: 1; transition: 100ms}
+a{text-decoration: none !important;opacity: 0.8; transition: 100ms;color: #202020}
+.align-center {text-align:center}
+.align-left {text-align:left}
+.align-right {text-align:right}
+.align-justify{text-align: justify;}
+.white{background: #fff;color: #202020;background-size: cover;}
+.dark{background: url('../img/bg/BG-gris.png') no-repeat #202020;color: #fff;background-size: cover}
+
+/*~~~ Sticky ~~~*/
+#sticky #header{width: 100%;padding: 0px}
+#sticky{display: none;z-index: 9999; position: fixed;width: 100%;background: #202020;padding: 0px 100px}
+#sticky ul li {display: inline-block;text-transform: uppercase;padding: 15px 20px;}
+#sticky ul li a{color: #fff;font-size: 17px;padding: 0px;}
+#sticky ul {margin-bottom: 0px}
+#sticky img{width: 130px}
+
+.navbar-detection li>a:hover, .navbar-detection li>a:focus, .navbar-detection li.active a{
+    border-bottom: 2px solid #e67f00;
+    opacity: 1;
+}
+.navbar-detection li>a:hover {border-bottom: 0px;}
+.navbar-detection #sticky-logo>a:hover, .navbar-detection #sticky-logo>a:focus, .navbar-detection #sticky-logo.active a{border-bottom: 0px;}
+.nav > li > a:hover, .nav > li > a:focus{background-color: transparent;}
+
+/*Navbar*/
+#navbar ul li {display: inline-block;text-transform: uppercase;padding: 0px 20px;font-size: 17px}
+#navbar a{opacity: 0.8}
+#navbar a:hover{opacity: 1}
+#navbar div{padding: 0px}
+
+/*~~~ Home ~~~*/
+/*Logo*/
+#home {padding: 3em 0;}
+#home #logo{padding: 70px 0px 50px 0px}
+#home #logo p{font-size: 13px;padding-top: 10px;letter-spacing: 1px}
+#home #logo h2{font-family: 'montserrat'}
+#home #logo img{width: 30%}
+
+/*Other*/
+#home h2{font-size: 22px; padding: 20px 0px 90px 0px;font-family: 'kayak' }
+#home span{color: #e67f00}
+#home .owl-theme{margin-bottom: 5em}
+
+/*~~~ Solution ~~~*/
+#solution h4{padding: 20px 0px 5px 0px}
+#solution h3{font-size: 20px}
+#solution p{font-size: 20px;font-family: 'kayak'}
+#solution img{width: 40%}
+
+/*~~~ Methods ~~~*/
+#methods #impact{padding: 20px 60px}
+#methods #impact img{width: 100%;filter: brightness(30%);padding: 15px}
+#methods p{font-family: 'kayak-light'}
+#methods .desc{position: absolute;top: 0px;padding: 15px}
+#methods .vignette{padding: 0px}
+#methods .desc h5{color: #fff}
+#methods .desc p{display: none}
+#methods .vignette:hover .desc{background: transparent; /*rgba(255,255,255,0.8)*/;height: 100%;}
+#methods .vignette:hover .desc h5{color: #e67f00}
+#methods .vignette:hover .desc p{display: block;color: #fff;}
+
+/*~~~ Presence ~~~*/
+#presence #poles{padding: 50px 60px}
+#presence h5{color: #fff;font-size: 18px}
+#customer-logos-mobile{display: none !important; }
+.show-reel .lsb-preview img{
+  width: 100%;
+  height: 220px;
+}
+ 
+/*~~~ Customers ~~~*/
+#customers #customer-logos{padding-top: 0px}
+#customers #customer-logos div{padding-top: 50px}
+#customers #customer-logos img {margin-bottom: 0px;width: 55%}
+#customers #customer-logos .small img {margin-bottom: 0px;width: 85%}
+#customers #customer-logos .little-pad{padding-top: 35px}
+
+/*~~~ Footer ~~~*/
+#footer{padding-bottom: 1em}
+#footer #footer-elem{padding: 50px 0px 20px 0px; text-align: left}
+#footer ul li a{color: #fff;font-size: 17px;line-height: 1px}
+#footer #social-links{padding-top: 0px}
+#footer #social-links img{padding: 20px 0px 30px 0px;filter: brightness(0) invert(1); }
+#footer #social-links ul li {display: inline-block;}
+#footer #social-links ul li img{width: 50%;}
+#footer span{font-weight: 900}
+#footer img{width: 20%}
+#footer h7{font-family: 'kayak-light'}
+#footer h7 span a{color: #fff }
+
+/*-- Mobile Menu --*/
+#mobile-header{
+    visibility: hidden;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    background-color: #fff;
+    z-index: 999999;
+    width: 40%;
+}
+#mobile-sticky{font-size: 13px;}
+#mobile-sticky li:hover{background-color: rgba(0,0,0,0.2);}
+#mobile-menu-open{
+  visibility: hidden;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+/****************/
+#quasi-text:hover #quasi-text{ display: block; }
+#quasi-text{ display: none }
+
+/****************** PAGES **********************/
+.pages{}
+.pages #navbar a{color: #fff;}
+.page-title{text-transform: uppercase;padding: 15em 0em;}
+.pages section{padding-top: 3em}
+.page-title h1{font-size: 50px;color: #fff;font-family: 'montserrat';font-weight: 600}
+.pages #navbar img{width: 130px}
+.pages #main p{padding-top: 1em; font-family: 'kayak';opacity: .85;text-align: justify; text-align-last: center;}
+.pages h4{font-size: 23px;font-family: 'kayak-bold';text-transform: uppercase;padding-bottom: 1em}
+ 
+
+/*~~ about ~~*/
+#about #home{background: url('../img/bg/solutions-bg.jpg') no-repeat #fff; background-size: cover;}
+#about #main span{font-weight: 600} 
+#about #keywords{padding: 5em 0em}
+#about #keywords div{padding-bottom:2.5em;font-family:'montserrat-bold';text-transform:uppercase;}
+#about #keywords h2{font-size: 23px;letter-spacing:-1px;}
+#about #keywords h2:hover{color: #e67f00;}
+#about #keywords a{transition: 0.3s}
+
+
+/*~~ quality ~~*/
+#quality #home{background: url('../img/bg/qualite-bg.jpg') no-repeat #fff; background-size: cover;}
+/*panel*/
+#quality #panels{padding-top: 4em;padding-bottom: 4em}
+#quality #panels h5{font-size: 17px;color: #202020;letter-spacing: -.5px;padding-bottom: 2em}
+
+#quality #panels .fst-info{padding-bottom: 5px;position: relative;right: 35px}
+#quality #panels .fst-info img{width: 55%}
+
+#quality #panels .snd-info{padding-bottom: 5px;position: relative;left: 35px}
+#quality #panels .snd-info img{width: 50%}
+
+#quality #panels .thd-info{padding-bottom: 5px;position: relative;right: 35px}
+#quality #panels .thd-info img{width: 40%}
+
+/*First*/
+#quality #panels .fst-info .numbers {padding-top: 0px;position: absolute;left:35%;top: -28%;font-size: 135px;font-family: 'kayak-bold';color: #fff;text-transform: uppercase;display: none;}
+#quality #panels .fst-info .desc {padding-top: 0px;position:absolute;left:35%;top:50%;font-size:30px;color:#202020;text-transform: uppercase;font-family: 'kayak-bold'}
+
+/*Second*/
+#quality #panels .snd-info .numbers {padding-top: 0px;position: absolute;left:28%;top: 0%;font-size: 90px;font-family: 'kayak-bold';color: #202020;text-transform: uppercase;display: none;}
+#quality #panels .snd-info .desc {padding-top: 0px;position:absolute;left:35%;top:50%;font-size:30px;color:#202020;text-transform: uppercase;font-family: 'kayak-bold'}
+
+/*Third*/
+#quality #panels .thd-info .numbers {padding-top: 0px;position: absolute;left:32%;top: 0%;font-size: 65px;font-family: 'kayak';color: #202020;text-transform: uppercase;display: none;}
+#quality #panels .thd-info .desc {padding-top: 0px;position:absolute;left:45%;top:60%;font-size:22px;color:#202020;text-transform: uppercase;font-family: 'kayak-bold'}
+
+
+
+/*First*/
+#quality #panels .fst-info .init {padding-top: 0px;position: absolute;left:35%;top: -28%;font-size: 135px;font-family: 'kayak-bold';color: #fff;text-transform: uppercase;}
+/*Second*/
+#quality #panels .snd-info .init {padding-top: 0px;position: absolute;left:28%;top: 0%;font-size: 90px;font-family: 'kayak-bold';color: #202020;text-transform: uppercase;}
+/*Third*/
+#quality #panels .thd-info .init {padding-top: 0px;position: absolute;left:32%;top: 0%;font-size: 65px;font-family: 'kayak';color: #202020;text-transform: uppercase;}
+
+
+
+
+/*~~ impact ~~*/
+#impact #home{background: url('../img/bg/impact-bg.jpg') no-repeat #fff; background-size: cover;}
+#impact #display{padding-top: 4em}
+#impact #display div{padding: 0px}
+#impact #display img{width: 95%}
+  
+#impact #display .content{position: absolute;width: 85%;left: 7.5%;display: none;top: 30px;transition: .5s}
+#impact #display .vignette  {padding-bottom: 5em} 
+#impact #display .vignette:hover img{opacity: .1;transition: .4s} 
+#impact #display .vignette img{opacity: .9;transition: .5s} 
+
+#impact #display .vignette h5{font-size: 18px;transition: .5s}
+#impact #display .vignette p{font-size:16px;line-height:18px;transition: .5s;text-align: justify; text-align-last: center;}
+
+#impact #display .vignette:hover .content {opacity: 1;;display: block;} 
+
+#impact #stat{padding-top: 2em;;display: block;}
+#impact #stat .number p{font-size: 110px;font-family: 'kayak';padding: 0px}
+#impact #stat .sentence {padding-top: 30px}
+#impact #stat .sentence .fst{font-size: 35px;font-family: 'montserrat';padding: 0px;;line-height: 25px;}
+#impact #stat .sentence span{font-family: 'montserrat';font-weight: 900}
+#impact #stat .sentence .snd{font-size: 43px;font-family: 'montserrat';padding: 0px;}
+#impact #stat .numbers{display: none;}
+
+#impact #stat1{padding-top: 2em;;display: block;}
+#impact #stat1 .number p{font-size: 110px;font-family: 'kayak';padding: 0px}
+#impact #stat1 .number #orange{color: #e67f00 ;}
+#impact #stat1 .sentence {padding-top: 30px}
+#impact #stat1 .sentence .fst{font-size: 34px;font-family: 'montserrat';padding: 0px;;line-height: 25px;}
+#impact #stat1 .sentence span{font-family: 'montserrat';font-weight: 900}
+#impact #stat1 .sentence .snd{font-size: 40px;font-family: 'montserrat';padding: 0px;}
+#impact #stat1 .numbers{display: none;}
+
+
+/*~~ offers ~~*/
+#offers #home{background: url('../img/bg/offres-bg.jpg') no-repeat #fff; background-size: cover;}
+#offers #point {padding: 4em 2em}
+
+
+/*~~ clients ~~*/
+#clients #home{background: url('../img/bg/clients-bg.jpg') no-repeat #fff; background-size: cover;}
+#clients h4{font-size: 28px;letter-spacing:-1px;font-family: 'montserrat-bold';opacity: 0.8;padding-top: 1em}
+#clients h3{color: #e67f00;font-size: 40px;font-family: 'montserrat';letter-spacing:-1px;opacity: 0.8;}
+#clients #customer-logos{padding-top: 1em}
+
+/*~~ presence ~~*/
+#presence #home{background: url('../img/bg/presence-bg.jpg') no-repeat #fff; background-size: cover;}
+#presence #main .item img{width: 70%}
+#presence #main .site .item{max-height: 500px}
+#presence #main .site {padding: 2em 0em}
+#presence #main .site h5{color: #202020;padding-top: 1em}
+.owl-pagination{display: none;}
+.owl-buttons img{transform: scale(1);transition: transform 0.4s;opacity: 0.4;}
+.owl-buttons img:hover{transform: scale(1.5);transition: transform 0.4s;opacity: 0.5;}
+.owl-buttons div{margin:0px;padding:0px;border-radius:0px;background:rgba(0,0,0,0)!important;}
+.owl-prev {position: absolute;top: 50%;left: -20px;}
+.owl-next {position: absolute;top: 50%;right: -20px;}

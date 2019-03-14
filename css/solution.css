@@ -1,0 +1,47 @@
+/*~~~~~ metropoleHD style - Solution page ~~~~~*/
+
+/*~~ solution ~~*/
+#solutions #home{background: url('../img/bg/solutions-bg.jpg') no-repeat #fff; background-size: cover;}
+#solutions #main span{font-weight: 600} 
+#solutions #main h3{font-size:30px;font-family:'montserrat-bold';font-weight:600;letter-spacing:-1px;padding-top:2em;opacity: 0.8}
+#solutions #main h3{font-size:26px;}
+/*~~ solution pictos ~~*/
+/*before*/
+#pictos{padding-top: 4em;padding-right: 0px;padding-left: 0px}
+#pictos div{padding: 0px;cursor: pointer;}
+/*.picto-before{margin-top: 8em}*/
+.picto-right{left: 45px;display: block;}
+.picto-left{right: 45px;display: block;}
+#fst{}
+#snd {bottom: 45px;}
+#thd{bottom: 90px;}
+#fth {bottom: 135px}
+#fiv{bottom: 180px;}
+#six {bottom: 225px;}
+
+.nul-bottom{bottom: 0px !important}
+/*#fst-after{margin-bottom: 6em;}
+#snd-after{margin-bottom: 9em;}
+#thd-after{margin-bottom: 12em;}
+#fth-after{margin-bottom: 12em}
+#fiv-after{margin-bottom: 8em;}
+#six-after{margin-bottom: 8em;}*/
+
+/*pictos content*/
+.picto-left p, .picto-right p {position: absolute;top: 20%;line-height: 24px;width: 25%;}
+.picto-right p {text-align: left;right: 5%;}
+.picto-left p {text-align: right;left:5%}
+
+/*~~~ after ~~~*/
+.picto-left-after, .picto-right-after {display: none;margin-bottom: 2em}
+.picto-left-after img, .picto-right-after img {width: 70%;}
+#pictos p {font-size:20px;margin:0px;font-weight: 800;}
+#pictos .desc {font-size: 18px;padding-top: 10px!important;font-weight: 100;cursor: auto;}
+#pictos .title{padding-top: 0px !important}
+#pictos hr {width: 100%;border-bottom: 2px solid #202020;margin-bottom: 0px;margin-top: 0px;opacity: 0.2;}
+/*~~~*/
+
+
+.picto-left-after .title, .picto-left-after .desc{text-align:left;text-align-last:left !important}
+.picto-right-after .title, .picto-right-after .desc{text-align:right;text-align-last:right !important}
+
